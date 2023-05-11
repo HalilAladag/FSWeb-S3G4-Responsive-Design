@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(111.4deg, rgba(7, 7, 9, 1) 6.5%, rgba(27, 24, 113, 1) 93.2%);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    align-items: center;
+}
+
+h2 {
+    font-size: 24px;
+    color: antiquewhite;
+    align-items: center;
+
+}
+
+nav a {
+    border: solid 1px black;
+    color: antiquewhite;
+    padding: 2% 3%;
+    background-image: linear-gradient(111.4deg, rgba(7, 7, 9, 1) 6.5%, rgba(27, 24, 113, 1) 93.2%);
+    ;
+}
+
+nav {
+    width: 70%;
+    text-align: right;
+}
+
+
+main {
+    width: 70vw;
+    margin: 0 auto;
+    background: url("https://fastly.picsum.photos/id/274/700/370.jpg?hmac=fxrZ68XQuNGVW8Jb_HtRL3PDujlTV_wkvOg-iMC6VK8");
+    height: 37vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 48px;
+    color: antiquewhite;
+}
+
+.button {
+    border: solid 1px #6a85b6;
+    color: antiquewhite;
+    padding: 2% 3%;
+    display: inline-block;
+    margin: 0 auto;
+    background-image: linear-gradient(111.4deg, rgba(7, 7, 9, 1) 6.5%, rgba(27, 24, 113, 1) 93.2%);
+
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    padding: 4%;
+    text-align: center;
+}
+
+a:hover {
+    background: #09203f;
+    color: antiquewhite;
+    cursor: pointer;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+section div {
+    width: 30vw;
+    text-align: center;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+section img {
+    width: 70%;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: antiquewhite;
+}
+
+@media screen and (max-width: 800px) {
+    header {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    nav a {
+        text-align: center;
+    }
+
+    main {
+        width: 90vw;
+        height: 47vw;
+        margin-top: 5%;
+        box-sizing: border-box;
+    }
+
+    section {
+        width: 90vw;
+        padding: 5vw;
+        box-sizing: border-box;
+    }
+
+    section div {
+        width: 40vw;
+    }
+    main h1{
+        font-size: 35px;
+    }
+    @media screen and (max-width: 500px) {
+        main h1{
+            font-size: 20px; 
+    
+    }
+}
+}
